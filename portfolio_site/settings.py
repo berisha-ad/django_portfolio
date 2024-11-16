@@ -127,7 +127,7 @@ if not DEBUG:
     STATIC_ROOT = path.join(BASE_DIR, 'staticfiles')
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-MEDIA_ROOT = BASE_DIR / "staticfiles/uploads"
+MEDIA_ROOT = BASE_DIR / "uploads"
 MEDIA_URL = "/files/"
 
 # Default primary key field type
