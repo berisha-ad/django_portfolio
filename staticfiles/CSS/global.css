@@ -526,6 +526,7 @@ footer .logo {
     
     .cv-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 2rem;
     }
 
     /* Skills Section */
@@ -552,6 +553,7 @@ footer .logo {
     }
     .project-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 2rem;
     }
 
     .link-wrapper{
