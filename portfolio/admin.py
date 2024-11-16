@@ -8,10 +8,10 @@ class PostAdmin(admin.ModelAdmin):
     list_display = ("title", "date")
 
 class SkillAdmin(admin.ModelAdmin):
-    list_display = ("title", "icon")
+    list_display = ("title", "iconlink")
 
 class FileAdmin(admin.ModelAdmin):
-    list_display = ("filename", "cv")
+    list_display = ("filename", "cvlink")
 
 admin.site.register(Project, PostAdmin)
 admin.site.register(Backend, SkillAdmin)
