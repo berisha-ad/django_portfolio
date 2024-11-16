@@ -28,7 +28,7 @@ SECRET_KEY = getenv("SECRET_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    getenv("APP_HOST")
+    "django-portfolio-bg34.onrender.com" , "adrianberisha.at" , "www.adrianberisha.at"
 ]
 
 
